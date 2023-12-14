@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                app:srcCompat="@drawable/zima" />
+
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Буря мглою небо кроет,
+Вихри снежные крутя;
+То, как зверь, она завоет,
+То заплачет, как дитя,
+То по кровле обветшалой
+Вдруг соломой зашумит,
+То, как путник запоздалый,
+К нам в окошко застучит.
+Наша ветхая лачужка
+И печальна и темна.
+Что же ты, моя старушка,
+Приумолкла у окна?
+Или бури завываньем
+Ты, мой друг, утомлена,
+Или дремлешь под жужжаньем
+Своего веретена?
+Выпьем, добрая подружка
+Бедной юности моей,
+Выпьем с горя; где же кружка?
+Сердцу будет веселей.
+Спой мне песню, как синица
+Тихо за морем жила;
+Спой мне песню, как девица
+За водой поутру шла.
+Буря мглою небо кроет,
+Вихри снежные крутя;
+То, как зверь, она завоет,
+То заплачет, как дитя.
+Выпьем, добрая подружка
+Бедной юности моей,
+Выпьем с горя; где же кружка?
+Сердцу будет веселей."
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="20dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
